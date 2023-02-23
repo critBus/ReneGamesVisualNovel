@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 5.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReneGamesVisualNovel", "ReneGamesVisualNovel\ReneGamesVisualNovel.csproj", "{A840593B-F1CA-4EB9-83D5-ECA470090046}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReneUtiles", "D:\_Cosas\Programacion\Proyectos\C#\ReneUtiles\ReneUtiles\ReneUtiles.csproj", "{39ED2FA0-B942-4311-B296-AF34F130CC50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A840593B-F1CA-4EB9-83D5-ECA470090046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A840593B-F1CA-4EB9-83D5-ECA470090046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A840593B-F1CA-4EB9-83D5-ECA470090046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A840593B-F1CA-4EB9-83D5-ECA470090046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39ED2FA0-B942-4311-B296-AF34F130CC50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39ED2FA0-B942-4311-B296-AF34F130CC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39ED2FA0-B942-4311-B296-AF34F130CC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39ED2FA0-B942-4311-B296-AF34F130CC50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

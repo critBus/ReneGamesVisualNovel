@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{A840593B-F1CA-4EB9-83D5-ECA470090046}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ReneGamesVisualNovel</RootNamespace>
+    <AssemblyName>ReneGamesVisualNovel</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\BasicoVisualNovel.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Dialogo\AccionDialogo_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Dialogo\CondicionDeVisbilidadDeOpcion_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Dialogo\ContextoDeDialogo_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Dialogo\Creadores\CreadorDeElementoDeDialogo_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Dialogo\Creadores\CreadorDeElementoDeListaDeDialogo_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Dialogo\Dialogo_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Dialogo\ElementoDeDialgo_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Dialogo\ListaDeDialogo_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Dialogo\ElementoDeListaDeDialogo_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Dialogo\SecuenciaDeDialogo_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Dialogo\TransicionDeDialogo_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Lenguaje\Descritivo\AccionDialogo_Descriptiva_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Lenguaje\Descritivo\CompletarEtapa_Descriptivo_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Lenguaje\Descritivo\CondicionDeEtapa_Descriptiva_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Lenguaje\Descritivo\CondicionDeVisbilidadDeDialogo_Descriptiva_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Lenguaje\Descritivo\CondicionDeVisbilidadDeOpcion_Descriptiva_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Lenguaje\Ejecutable\AccionDialogo_Ejecutable_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Lenguaje\Ejecutable\CondicionDeEtapa_Ejecutable_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Lenguaje\Ejecutable\CondicionDeVisbilidadDeDialogo_Ejecutable_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Lenguaje\Ejecutable\CondicionDeVisbilidadDeOpcion_Ejecutable_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Partida\ContextoDePartida_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Personajes\PersonajePrincipal_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Progresos\Progreso_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Progresos\ArbolDeProgreso_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Progresos\CondicionDeEtapa_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Progresos\DescripcionDeEstado_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Progresos\Etapa_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Personajes\Personaje_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Ubicaciones\Ubicacion_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Visualizacion\Creadores\CreadorDeEscenario_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Visualizacion\Dialogos\CondicionDeVisbilidadDeDialogo_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Visualizacion\Dialogos\DisparadorDeDialogo_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Visualizacion\Escenario_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Visualizacion\FondoVisual_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Visualizacion\TextoVisual_VN.cs" />
+    <Compile Include="ReneUtiles\Games\VisualNovel\Visualizacion\TransicionsVisual_VN.cs" />
+    <Compile Include="UserControl1.cs" />
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ReneUtiles" />
+    <Folder Include="ReneUtiles\Games" />
+    <Folder Include="ReneUtiles\Games\VisualNovel" />
+    <Folder Include="ReneUtiles\Games\VisualNovel\Dialogo" />
+    <Folder Include="ReneUtiles\Games\VisualNovel\Dialogo\Creadores" />
+    <Folder Include="ReneUtiles\Games\VisualNovel\Lenguaje" />
+    <Folder Include="ReneUtiles\Games\VisualNovel\Lenguaje\Descritivo" />
+    <Folder Include="ReneUtiles\Games\VisualNovel\Lenguaje\Ejecutable" />
+    <Folder Include="ReneUtiles\Games\VisualNovel\Partida" />
+    <Folder Include="ReneUtiles\Games\VisualNovel\Ubicaciones" />
+    <Folder Include="ReneUtiles\Games\VisualNovel\Personajes" />
+    <Folder Include="ReneUtiles\Games\VisualNovel\Visualizacion" />
+    <Folder Include="ReneUtiles\Games\VisualNovel\Progresos" />
+    <Folder Include="ReneUtiles\Games\VisualNovel\Visualizacion\Creadores" />
+    <Folder Include="ReneUtiles\Games\VisualNovel\Visualizacion\Dialogos" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\_Cosas\Programacion\Proyectos\C#\ReneUtiles\ReneUtiles\ReneUtiles.csproj">
+      <Project>{39ed2fa0-b942-4311-b296-af34f130cc50}</Project>
+      <Name>ReneUtiles</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

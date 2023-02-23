@@ -1,0 +1,10 @@
+D:\_Cosas\Programacion\Proyectos\C#\ReneGamesVisualNovel\ReneGamesVisualNovel\obj\Debug\ReneGamesVisualNovel.csprojResolveAssemblyReference.cache
+D:\_Cosas\Programacion\Proyectos\C#\ReneGamesVisualNovel\ReneGamesVisualNovel\bin\Debug\ReneGamesVisualNovel.dll
+D:\_Cosas\Programacion\Proyectos\C#\ReneGamesVisualNovel\ReneGamesVisualNovel\bin\Debug\ReneGamesVisualNovel.pdb
+D:\_Cosas\Programacion\Proyectos\C#\ReneGamesVisualNovel\ReneGamesVisualNovel\bin\Debug\ReneUtiles.dll
+D:\_Cosas\Programacion\Proyectos\C#\ReneGamesVisualNovel\ReneGamesVisualNovel\bin\Debug\System.Data.SQLite.dll
+D:\_Cosas\Programacion\Proyectos\C#\ReneGamesVisualNovel\ReneGamesVisualNovel\bin\Debug\ReneUtiles.pdb
+D:\_Cosas\Programacion\Proyectos\C#\ReneGamesVisualNovel\ReneGamesVisualNovel\bin\Debug\System.Data.SQLite.pdb
+D:\_Cosas\Programacion\Proyectos\C#\ReneGamesVisualNovel\ReneGamesVisualNovel\bin\Debug\System.Data.SQLite.xml
+D:\_Cosas\Programacion\Proyectos\C#\ReneGamesVisualNovel\ReneGamesVisualNovel\obj\Debug\ReneGamesVisualNovel.dll
+D:\_Cosas\Programacion\Proyectos\C#\ReneGamesVisualNovel\ReneGamesVisualNovel\obj\Debug\ReneGamesVisualNovel.pdb
